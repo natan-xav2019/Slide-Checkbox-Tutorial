@@ -1,0 +1,36 @@
+:root{
+    --cor-background-button: #475569
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.switch .switch-warpper{
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+}
+
+.switch .switch-warpper .swich-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-color: var(--cor-background-button);
+}
